@@ -60,3 +60,13 @@ body {
   backdrop-filter: blur(3px);
   z-index: 5;
 }
+@media (max-width: 800px) {
+  .divNum1,
+  .divNum2,
+  .divNum3 {
+    position: fixed;
+    left: 0;
+    top: 100px;
+  }
+}
+
